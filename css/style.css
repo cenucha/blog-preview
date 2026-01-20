@@ -1,0 +1,80 @@
+.container {
+    position: relative;
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    width: clamp(280px, 28.33vw, 408px);
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+}
+
+.wrapper>img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: clamp(20px, 1.66vw, 24px);
+}
+
+button {
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+    border-radius: 2px;
+    font-size: clamp(0.75rem, 1.11vw, 1rem);
+    background-color: hsl(47, 88%, 63%);
+    width: 24.16%;
+    padding: 0.625rem;
+    margin-bottom: clamp(16px, 1.38vw, 20px);
+}
+
+p {
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    color: hsl(0, 0%, 7%);
+    font-size: clamp(0.75rem, 1.11vw, 1rem);
+    margin-bottom: clamp(24px, 2.08vw, 30px);
+}
+
+h1 {
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+    font-size: clamp(1.25rem, 1.66vw, 1.5rem);
+    margin-bottom: clamp(24px, 2.08vw, 30px);
+    transition: 0.3s;
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+h2 {
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+    font-size: clamp(1rem, 1.25vw, 1.125rem);
+    margin-bottom: clamp(30px, 2.77vw, 40px);
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user>img {
+    width: 35px;
+}
+
+.user>p {
+    margin: 0;
+   font-weight: 800; 
+}
